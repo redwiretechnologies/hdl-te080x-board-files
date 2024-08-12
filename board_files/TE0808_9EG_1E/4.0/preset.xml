@@ -14,16 +14,20 @@
         <user_parameter  name="CONFIG.PSU_BANK_2_IO_STANDARD" value="LVCMOS18"/>
         <user_parameter  name="CONFIG.PSU_BANK_3_IO_STANDARD" value="LVCMOS18"/>
         <user_parameter  name="CONFIG.PSU__PSS_REF_CLK__FREQMHZ" value="33.333333"/>
+        <!-- QSPI -->
         <user_parameter  name="CONFIG.PSU__QSPI__PERIPHERAL__ENABLE" value="1"/>
         <user_parameter  name="CONFIG.PSU__QSPI__PERIPHERAL__MODE" value="Dual Parallel"/>
         <user_parameter  name="CONFIG.PSU__QSPI__PERIPHERAL__DATA_MODE" value="x4"/>
         <user_parameter  name="CONFIG.PSU__QSPI__GRP_FBCLK__ENABLE" value="1"/>
+        <!-- TTC --> 
         <user_parameter  name="CONFIG.PSU__TTC0__PERIPHERAL__ENABLE" value="1"/>
         <user_parameter  name="CONFIG.PSU__TTC1__PERIPHERAL__ENABLE" value="1"/>
         <user_parameter  name="CONFIG.PSU__TTC2__PERIPHERAL__ENABLE" value="1"/>
         <user_parameter  name="CONFIG.PSU__TTC3__PERIPHERAL__ENABLE" value="1"/>
+        <!-- SWDT -->
         <user_parameter  name="CONFIG.PSU__SWDT0__PERIPHERAL__ENABLE" value="1"/>
         <user_parameter  name="CONFIG.PSU__SWDT1__PERIPHERAL__ENABLE" value="1"/>
+        <!-- DDR -->
         <user_parameter  name="CONFIG.PSU__DDRC__CL" value="17"/>
         <user_parameter  name="CONFIG.PSU__DDRC__CWL" value="16"/>
         <user_parameter  name="CONFIG.PSU__DDRC__BG_ADDR_COUNT" value="1"/>
@@ -36,15 +40,20 @@
         <user_parameter  name="CONFIG.PSU__DDRC__T_RP" value="17"/>
         <user_parameter  name="CONFIG.PSU__DDRC__DDR4_T_REF_MODE" value="1"/>
         <user_parameter  name="CONFIG.PSU__DDRC__FGRM" value="4X"/>
+        <!-- UART0 -->
         <user_parameter  name="CONFIG.PSU__UART0__PERIPHERAL__ENABLE" value="1"/>
         <user_parameter  name="CONFIG.PSU__UART0__PERIPHERAL__IO" value="MIO 42 .. 43"/>
+        <!-- PJTAG -->
         <user_parameter  name="CONFIG.PSU__PJTAG__PERIPHERAL__ENABLE" value="1"/>
         <user_parameter  name="CONFIG.PSU__PJTAG__PERIPHERAL__IO" value="MIO 26 .. 29"/>
+        <!-- SD0 -->
         <user_parameter  name="CONFIG.PSU__SD0__PERIPHERAL__ENABLE" value="1"/>
         <user_parameter  name="CONFIG.PSU__SD0__SLOT_TYPE" value="eMMC"/>
+        <user_parameter  name="CONFIG.PSU__SD0__DATA_TRANSFER_MODE" value="8Bit"/>
         <user_parameter  name="CONFIG.PSU__SD0__PERIPHERAL__IO" value="MIO 13 .. 22"/>
         <user_parameter  name="CONFIG.PSU__SD0__RESET__ENABLE" value="1"/>
         <user_parameter  name="CONFIG.PSU__SD0__GRP_POW__IO" value="MIO 23"/>
+        <!-- SD1 -->
         <user_parameter  name="CONFIG.PSU__SD1__PERIPHERAL__ENABLE" value="1"/>
         <user_parameter  name="CONFIG.PSU__SD1__SLOT_TYPE" value="SD 2.0"/>
         <user_parameter  name="CONFIG.PSU__SD1__PERIPHERAL__IO" value="MIO 46 .. 51"/>
@@ -52,6 +61,7 @@
         <user_parameter  name="CONFIG.PSU__SD1__GRP_CD__IO" value="MIO 45"/>
         <user_parameter  name="CONFIG.PSU__SD1__GRP_WP__ENABLE" value="1"/>
         <user_parameter  name="CONFIG.PSU__SD1__GRP_WP__IO" value="MIO 44"/>
+        <!-- MIO -->
         <user_parameter  name="CONFIG.PSU_MIO_44_PULLUPDOWN" value="disable"/>
         <user_parameter  name="CONFIG.PSU_MIO_44_INPUT_TYPE" value="cmos"/>
         <user_parameter  name="CONFIG.PSU_MIO_45_PULLUPDOWN" value="disable"/>
@@ -67,14 +77,18 @@
         <user_parameter  name="CONFIG.PSU_MIO_50_PULLUPDOWN" value="disable"/>
         <user_parameter  name="CONFIG.PSU_MIO_50_INPUT_TYPE" value="cmos"/>
         <user_parameter  name="CONFIG.PSU_MIO_51_PULLUPDOWN" value="disable"/>
+        <!-- CAN0 -->
         <user_parameter  name="CONFIG.PSU__CAN0__PERIPHERAL__ENABLE" value="1"/>
         <user_parameter  name="CONFIG.PSU__CAN0__PERIPHERAL__IO" value="EMIO"/>
+        <!-- I2C0 -->
         <user_parameter  name="CONFIG.PSU__I2C0__PERIPHERAL__ENABLE" value="1"/>
         <user_parameter  name="CONFIG.PSU__I2C0__PERIPHERAL__IO" value="MIO 38 .. 39"/>
+        <!-- ETH -->
         <user_parameter  name="CONFIG.PSU__ENET3__PERIPHERAL__ENABLE" value="1"/>
         <user_parameter  name="CONFIG.PSU__ENET3__PERIPHERAL__IO" value="MIO 64 .. 75"/>
         <user_parameter  name="CONFIG.PSU__ENET3__GRP_MDIO__ENABLE" value="1"/>
         <user_parameter  name="CONFIG.PSU__ENET3__GRP_MDIO__IO" value="MIO 76 .. 77"/>
+        <!-- PCIE -->
         <user_parameter  name="CONFIG.PSU__PCIE__PERIPHERAL__ENABLE" value="1"/>
         <user_parameter  name="CONFIG.PSU__PCIE__PERIPHERAL__ENDPOINT_IO" value="MIO 31"/>
         <user_parameter  name="CONFIG.PSU__PCIE__PERIPHERAL__ROOTPORT_IO" value="MIO 31"/>
@@ -83,10 +97,12 @@
         <user_parameter  name="CONFIG.PSU__PCIE__DEVICE_PORT_TYPE" value="Root Port"/>
         <user_parameter  name="CONFIG.PSU__PCIE__DEVICE_ID" value="0xD021"/>
         <user_parameter  name="CONFIG.PSU__PCIE__CLASS_CODE_SUB" value="0x04"/>
+        <!-- SATA -->
         <user_parameter  name="CONFIG.PSU__SATA__PERIPHERAL__ENABLE" value="1"/>
         <user_parameter  name="CONFIG.PSU__SATA__LANE1__ENABLE" value="0"/>
         <user_parameter  name="CONFIG.PSU__SATA__LANE0__ENABLE" value="1"/>
         <user_parameter  name="CONFIG.PSU__SATA__LANE0__IO" value="GT Lane2"/>
+        <!-- USB0 -->
         <user_parameter  name="CONFIG.PSU__USB0__PERIPHERAL__ENABLE" value="1"/>
         <user_parameter  name="CONFIG.PSU__USB0__PERIPHERAL__IO" value="MIO 52 .. 63"/>
         <user_parameter  name="CONFIG.PSU__USB3_0__PERIPHERAL__ENABLE" value="1"/>
@@ -94,12 +110,15 @@
         <user_parameter  name="CONFIG.PSU__USB0__RESET__ENABLE" value="1"/>
         <user_parameter  name="CONFIG.PSU__USB0__RESET__IO" value="MIO 30"/>
         <user_parameter  name="CONFIG.PSU__USB__RESET__MODE" value="Separate MIO Pin"/>
+        <!-- Display Port -->
         <user_parameter  name="CONFIG.PSU__DP__LANE_SEL" value="Single Higher"/>
         <user_parameter  name="CONFIG.PSU__DISPLAYPORT__PERIPHERAL__ENABLE" value="1"/>
         <user_parameter  name="CONFIG.PSU__DISPLAYPORT__LANE0__IO" value="GT Lane3"/>
+        <!-- REF_CLK/CTRL -->
         <user_parameter  name="CONFIG.PSU__USB0__REF_CLK_SEL" value="Ref Clk2"/>
         <user_parameter  name="CONFIG.PSU__USB0__REF_CLK_FREQ" value="100"/>
         <user_parameter  name="CONFIG.PSU__DP__REF_CLK_SEL" value="Ref Clk3"/>
+        <user_parameter  name="CONFIG.PSU__SATA__REF_CLK_SEL" value="Ref Clk1"/>
         <user_parameter  name="CONFIG.PSU__PCIE__REF_CLK_SEL" value="Ref Clk2"/>
         <user_parameter  name="CONFIG.PSU__GPIO0_MIO__PERIPHERAL__ENABLE" value="1"/>
         <user_parameter  name="CONFIG.PSU__USE__AUDIO" value="1"/>
@@ -122,5 +141,5 @@
       </user_parameters>
     </ip>
   </ip_preset>
-   
+  
 </ip_presets>

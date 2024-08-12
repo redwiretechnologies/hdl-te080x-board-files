@@ -6,7 +6,7 @@
 <!-- ##################################################################### -->
 <!-- ##general board part description-->
 <!-- ##Info: board part name: board_vendor:board_name:part0:file_version  , use all lower case-->
-<board schema_version="2.1" vendor="trenz.biz" name="te0808_9eg_1e" display_name="TE0808-*-9BE21-LK/-9BE21-L/-9BE21-A/-09EG-1EL/-09EG-1EE/-09EG-1ED/-09EG-1EB (4GB DDR). *SPRT PCB: REV05, REV04." url="trenz.org/te0808-info" preset_file="preset.xml">
+<board schema_version="2.1" vendor="trenz.biz" name="te0808_9eg_1e" display_name="TE0808-*-9BE21-E/-9BE21-F/-9BE81-A/-9BE21-KZ/-9BE21-LZ/-9BE21-LK/-9BE21-L/-9BE21-AZ/-9BE21-AK/-9BE21-A/-09EG-1EL/-09EG-1EE/-09EG-1ED/-09EG-1EB (4GB DDR). *SPRT PCB: REV05, REV04." url="trenz.org/te0808-info" preset_file="preset.xml">
   <images>
     <image name="te0808_board.png" display_name="TE0808 BOARD" sub_type="board">
       <description>TE0808 Board File Image</description>
@@ -17,7 +17,7 @@
 <!-- ##Currently revision with highest id is only displayed in Vivado. Write supported revisions to description too!-->
   <compatible_board_revisions>
     <!--insert supported revisions-->
-    <revision id="0">0.5</revision>
+    <revision id="1">0.5</revision>
     <revision id="0">0.4</revision>
   </compatible_board_revisions>
 <!-- ##################################################################### -->
@@ -26,7 +26,7 @@
   <file_version>3.0</file_version>
 <!-- ##################################################################### -->
 <!-- ##Board descriptions -->
-  <description>Zynq UltraScale+ MPSoC TE0808-*-9BE21-LK/-9BE21-L/-9BE21-A/-09EG-1EL/-09EG-1EE/-09EG-1ED/-09EG-1EB (4GB DDR) Board (form factor 5.2x7.6 cm) with 4x 1 GByte DDR4, speed grade -1 and extended temperature range. *Supported PCB Revisions: REV05, REV04. Board Part is only with minimum PS-Setup. Use for own carrier or simple SDK debugging. User must configure B2B MIOs manually, depending on his carrier board connection. Without user PS configuration only JTAG and QSPI boot is possible with this board part file.</description>
+  <description>Zynq UltraScale+ MPSoC TE0808-*-9BE21-E/-9BE21-F/-9BE81-A/-9BE21-KZ/-9BE21-LZ/-9BE21-LK/-9BE21-L/-9BE21-AZ/-9BE21-AK/-9BE21-A/-09EG-1EL/-09EG-1EE/-09EG-1ED/-09EG-1EB (4GB DDR) Board (form factor 5.2x7.6 cm) with 4x 1 GByte DDR4, speed grade -1 and extended temperature range. *Supported PCB Revisions: REV05, REV04. Board Part is only with minimum PS-Setup. Use for own carrier or simple SDK debugging. User must configure B2B MIOs manually, depending on his carrier board connection. Without user PS configuration only JTAG and QSPI boot is possible with this board part file.</description>
 <!-- ##################################################################### -->
 <!-- ##Board components. Special component part0=fpga -->
 <!-- ##set display_name and correct part_name for fpga-->

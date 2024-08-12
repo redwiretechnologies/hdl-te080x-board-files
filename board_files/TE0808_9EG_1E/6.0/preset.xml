@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?> 
 <!-- ##################################################################### -->
 <!-- ##TE File Version:1.0-->
-<!-- ##TE Last Modification:2020.07.13 -->
+<!-- ##TE Last Modification:2020.09.25 -->
 <!-- ##################################################################### -->
 <ip_presets schema="1.0">
   <!--insert ip presets here, see ug895 or other board part files-->
@@ -28,11 +28,17 @@
         <user_parameter  name="CONFIG.PSU__SWDT0__PERIPHERAL__ENABLE" value="1"/>
         <user_parameter  name="CONFIG.PSU__SWDT1__PERIPHERAL__ENABLE" value="1"/>
         <!-- DDR -->
+        <user_parameter  name="CONFIG.PSU__DDRC__CL" value="17"/>
+        <user_parameter  name="CONFIG.PSU__DDRC__CWL" value="16"/>
         <user_parameter  name="CONFIG.PSU__DDRC__BG_ADDR_COUNT" value="1"/>
-        <user_parameter  name="CONFIG.PSU__DDRC__DEVICE_CAPACITY" value="4096 MBits"/>
+        <user_parameter  name="CONFIG.PSU__DDRC__DEVICE_CAPACITY" value="16384 MBits"/>
         <user_parameter  name="CONFIG.PSU__DDRC__DRAM_WIDTH" value="16 Bits"/>
-        <user_parameter  name="CONFIG.PSU__DDRC__ROW_ADDR_COUNT" value="15"/>
-        <user_parameter  name="CONFIG.PSU__DDRC__SPEED_BIN" value="DDR4_2400R"/>
+        <user_parameter  name="CONFIG.PSU__DDRC__ROW_ADDR_COUNT" value="17"/>
+        <user_parameter  name="CONFIG.PSU__DDRC__SPEED_BIN" value="DDR4_2400P"/>
+        <user_parameter  name="CONFIG.PSU__DDRC__T_RC" value="50"/>
+        <user_parameter  name="CONFIG.PSU__DDRC__T_RCD" value="17"/>
+        <user_parameter  name="CONFIG.PSU__DDRC__T_RP" value="17"/>
+        <user_parameter  name="CONFIG.PSU__DDRC__DDR4_T_REF_MODE" value="1"/>
         <user_parameter  name="CONFIG.PSU__DDRC__FGRM" value="4X"/>
         <!-- UART0 -->
         <user_parameter  name="CONFIG.PSU__UART0__PERIPHERAL__ENABLE" value="1"/>
