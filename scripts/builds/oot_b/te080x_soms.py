@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: Apache-2.0
+
 import copy
 
 te0803_boards = ["2cg", "2eg", "3cg", "3eg", "4cg", "4eg", "4ev", "5ev"]
